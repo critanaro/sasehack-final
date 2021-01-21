@@ -56,7 +56,7 @@ const Home = () => (
     <Head title={title} description={description} url={url} ogImage={ogImage} />
     {//<Mlh /> 
   }
-    <CenterImage pathToImage="./static/nickhack.png" />
+    <CenterImage pathToImage="./static/rshack_logo.svg" />
     <IntroText intro={intro} bullets={bullets} />
     <CardNav cards={cards} />
     <About lines={lines} title={aboutTitle} />
@@ -69,7 +69,7 @@ const Home = () => (
     <Links links={links} />
     <style jsx global>{`
       html {
-        background: linear-gradient(rgb(95, 12, 138), rgb(12, 4, 30))
+        background: linear-gradient(rgb(204, 187, 255), rgb(47, 47, 49))
       }
     `}</style>
   </Provider>

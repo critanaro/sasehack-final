@@ -1,9 +1,44 @@
 {
-  "base": "#9D5DFD",
-  "light": "#b6baf9",
-  "dark": "#349898",
-  "black": "#3d3e4c",
+  "base": "#CCBBFF",
+  "light": "#CCBBFF",
+  "dark": "#2F2F31",
+  "black": "#000000",
   "gray": [
+     "2F2F31",
+    "2F2F31",
+    "2F2F31",
+    "2F2F31",
+    "2F2F31",
+    "2F2F31",
+    "2F2F31",
+    "2F2F31",
+    "2F2F31",
+    "2F2F31"
+  ],
+  "gray2": [
+    "2F2F31",
+    "2F2F31",
+    "2F2F31",
+    "2F2F31",
+    "2F2F31",
+    "2F2F31",
+    "2F2F31",
+    "2F2F31",
+    "2F2F31",
+    "2F2F31"
+  ],
+  "backups":[
+    "#ebf1f5", 
+    "#d6e2eb",
+    "#bfd1e0",
+    "#a5bfd3",
+    "#86a9c4",
+    "#618eb2",
+    "#5780a0",
+    "#4c708c",
+    "#3f5c73",
+    "#2c4152",
+
     "#f9f9fa",
     "#eff0f9",
     "#dfe0e6",
@@ -15,18 +50,7 @@
     "#696a82",
     "#3d3e4c"
   ],
-  "gray2": [
-    "#ebf1f5",
-    "#d6e2eb",
-    "#bfd1e0",
-    "#a5bfd3",
-    "#86a9c4",
-    "#618eb2",
-    "#5780a0",
-    "#4c708c",
-    "#3f5c73",
-    "#2c4152"
-  ],
   "white": ["#ffffff"],
-  "lightAccentColor": "#F6B8B8"
+  "lightAccentColor": "#FFB9BA"
 }
+
