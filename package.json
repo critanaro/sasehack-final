@@ -1,6 +1,9 @@
 {
   "name": "sasehack-cra",
   "version": "1.0.0",
+  "engines": {
+    "node": "^14.8.0"
+  },
   "description": "website for rice university hackathon",
   "main": "index.js",
   "private": true,
