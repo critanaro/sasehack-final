@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Box, Flex, Image, Tooltip, Text } from "rebass";
-import colors from "./styles/colors.json";
-import { title, files } from "./content/sponsors";
+import colors from "../styles/colors.json";
+import { title, files } from "../content/sponsors";
 import styled from "styled-components";
 
 const CustomTooltip = styled(Tooltip)`
@@ -43,7 +43,7 @@ const Sponsors = () => (
             <a href={link}>
               <Image
                 style={{ margin: "2em 1em", height: `${height}`}}
-                src={`./static/sponsors/${name}`}
+                src={`../static/sponsors/${name}`}
               />
             </a>
           ) : (
@@ -51,7 +51,7 @@ const Sponsors = () => (
               <a href={link}>
                 <Image 
                   style={{ margin: "2em 1em", height: `${height}`}}
-                  src={`./static/sponsors/${name}`}
+                  src={`../static/sponsors/${name}`}
                 />
               </a>
             </CustomTooltip>
