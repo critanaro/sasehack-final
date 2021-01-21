@@ -18,7 +18,7 @@ export const cards = [
   {
     icon: "https://microicon-clone.vercel.app/attach_money/ffffff",
     title: "Sponsor",
-    href: "../static/sponsorships.pdf",
+    href: "./static/sponsorships.pdf",
     text: "Thanks for your interest! Check out our sponsorship packet →"
   },
   {

@@ -56,7 +56,7 @@ const Home = () => (
     <Head title={title} description={description} url={url} ogImage={ogImage} />
     {//<Mlh /> 
   }
-    <CenterImage pathToImage="../static/nickhack.png" />
+    <CenterImage pathToImage="./static/nickhack.png" />
     <IntroText intro={intro} bullets={bullets} />
     <CardNav cards={cards} />
     <About lines={lines} title={aboutTitle} />

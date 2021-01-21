@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Box, Container, Card, Flex } from "rebass";
-import { title, cards } from "../content/tracks";
-import colors from "../styles/colors.json";
+import { title, cards } from "./content/tracks";
+import colors from "./styles/colors.json";
 import { Element } from "react-scroll";
 
 const Tracks = () => (
