@@ -1,7 +1,7 @@
 import { Flex, Box } from "rebass";
 import * as Scroll from "react-scroll";
-let ScrollingLink = Scroll.Link;
 import colors from "../styles/colors.json";
+let ScrollingLink = Scroll.Link;
 
 /**
  * A component that displays links in cards.
