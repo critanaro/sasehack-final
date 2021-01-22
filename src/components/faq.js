@@ -80,10 +80,8 @@ export default class Questions extends React.Component {
             .title {
               display: inline-block;
               text-transform: uppercase;
-              background: ${colors["dark"]};
-              border-top: 4px solid rgba(255, 255, 255, 1) !important;
-              border-left: 4px solid rgba(255, 255, 255, 1) !important;
-              border: 1px solid rgba(255, 255, 255, 0.2);
+              background: ${colors["pink"]};
+              border: 3px solid rgba(255, 255, 255, 0.1);
               font-family: "Overpass Mono", monospace;
               padding: 5px 10px 2px 10px;
               box-sizing: content-box;

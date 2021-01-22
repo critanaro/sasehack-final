@@ -1,56 +1,12 @@
 {
-  "base": "#CCBBFF",
-  "light": "#CCBBFF",
-  "dark": "#2F2F31",
+  "base": "#ccbbff",
+  "light": "#979798",
+  "dark": "#2f2f31",
   "black": "#000000",
-  "gray": [
-     "2F2F31",
-    "2F2F31",
-    "2F2F31",
-    "2F2F31",
-    "2F2F31",
-    "2F2F31",
-    "2F2F31",
-    "2F2F31",
-    "2F2F31",
-    "2F2F31"
-  ],
-  "gray2": [
-    "2F2F31",
-    "2F2F31",
-    "2F2F31",
-    "2F2F31",
-    "2F2F31",
-    "2F2F31",
-    "2F2F31",
-    "2F2F31",
-    "2F2F31",
-    "2F2F31"
-  ],
-  "backups":[
-    "#ebf1f5", 
-    "#d6e2eb",
-    "#bfd1e0",
-    "#a5bfd3",
-    "#86a9c4",
-    "#618eb2",
-    "#5780a0",
-    "#4c708c",
-    "#3f5c73",
-    "#2c4152",
-
-    "#f9f9fa",
-    "#eff0f9",
-    "#dfe0e6",
-    "#d1d2db",
-    "#c2c2cf",
-    "#b1b1c2",
-    "#9d9eb2",
-    "#8687a0",
-    "#696a82",
-    "#3d3e4c"
-  ],
+  "pink": "#FFB9BA",
+  
+ 
   "white": ["#ffffff"],
-  "lightAccentColor": "#FFB9BA"
+  "lightAccentColor": "#ffb9ba"
 }
 

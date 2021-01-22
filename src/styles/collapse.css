@@ -18,17 +18,16 @@
 }
 
 .rc-collapse > .rc-collapse-item:first-child {
-  border-top: 4px solid rgba(255, 255, 255, 1) !important;
-  border-left: 4px solid rgba(255, 255, 255, 1) !important;
+  
 }
 
 .faqCard {
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 3px solid rgba(255, 255, 255, 0.1);
   color: #ecedf0;
   font-family: "Overpass Mono", monospace;
   font-weight: 300;
   padding: 18px;
-  text-align: left;
+  text-align: center;
   text-decoration: none;
   transition: border-color 0.3s ease-in-out, background 0.3s ease-in-out;
   height: auto;

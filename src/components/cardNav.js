@@ -48,8 +48,8 @@ const CardNav = props => (
       }
 
       .card {
-        border: 1px solid ${colors["gray"][1]};
-        color: ${colors["gray"][1]};
+        border: 1px solid ${colors["white"]};
+        color: ${colors["white"]};
         font-family: "Overpass Mono", monospace;
         margin: 10px;
         min-height: 110px !important;

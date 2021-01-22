@@ -1,6 +1,8 @@
 import { Provider } from "rebass";
 import { injectGlobal } from "styled-components";
 import colors from "../styles/colors.json";
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 // import necessary components
 import Head from "../components/head";
@@ -56,20 +58,20 @@ const Home = () => (
     <Head title={title} description={description} url={url} ogImage={ogImage} />
     {//<Mlh /> 
   }
-    <CenterImage pathToImage="../static/nickhack.png" />
+    <CenterImage pathToImage="../static/rshack_logo.svg" />
     <IntroText intro={intro} bullets={bullets} />
     <CardNav cards={cards} />
     <About lines={lines} title={aboutTitle} />
     <Calendar/>
     <Tracks/>
     <Prizes/>
-    <About lines={billLines} title={billTitle} />
     <Questions title={questionsTitle} questions={questions} />
     <Sponsors/>
+    <About lines={billLines} title={billTitle} />
     <Links links={links} />
     <style jsx global>{`
       html {
-        background: linear-gradient(rgb(95, 12, 138), rgb(12, 4, 30))
+        background: linear-gradient(rgb(204, 187, 255), rgb(47, 47, 49))
       }
     `}</style>
   </Provider>

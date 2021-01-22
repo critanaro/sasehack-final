@@ -21,7 +21,7 @@ const Schedule = (props) => {
                             }
                         </Flex>
                     </Box>
-                    <Box width={[0.85, 0.3]}>
+                    <Box bg={colors["white"]} color={colors["white"]} width={[0.85, 0.3]}>
                         <h2 className="day-name">Saturday</h2>
                         <Flex flexDirection='column'>
                             {
@@ -54,7 +54,7 @@ const Schedule = (props) => {
             <style jsx>{`
             
             .title {
-                color: ${colors["gray"][1]};
+                color: ${colors["dark"]};
                 text-transform: uppercase;
                 margin: unset;
                 text-align: center;
@@ -63,7 +63,7 @@ const Schedule = (props) => {
 
             .schedule-item {
                 border: solid;
-                border-color: ${colors["white"]} ${colors["base"]} ${colors["base"]} ${colors["white"]};
+                border-color: ${colors["dark"]} ${colors["base"]} ${colors["base"]} ${colors["white"]};
                 border-width: 3px 1px 1px 3px;
                 margin: 10px;
                 padding: 15px;

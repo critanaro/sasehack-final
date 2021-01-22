@@ -12,15 +12,13 @@ export const bullets = [
   {
     icon: "https://microicon-clone.vercel.app/slideshow/ffffff",
     button: "view opening slideshow",
-    href: "https://docs.google.com/presentation/d/13nDqdmwK4NWyTBz4_O8f1gm7KlQJN_QAd4FeqJN4ac8/edit?usp=sharing",
+    href: "https://docs.google.com/presentation/d/19FlCx_SI5YmvQXL43AJu6T0oQTEFLoU__4W_kItfIQ0/edit?usp=sharing",
     note: "view the slides from the opening ceremony!"
   },
 
   {
     icon: "https://microicon-clone.vercel.app/calendar/ffffff",
     button: "March 6-7, 2021",
-    href:
-      "https://calendar.google.com/event?action=TEMPLATE&tmeid=Mm0zMTU5bHJqbzJ0b2ZxNnJ0MnJndHJqaTMgY3c3NEByaWNlLmVkdQ&tmsrc=cw74%40rice.edu",
     note: "A 24 hour hack to bring us together after spending so much time apart."
   },
   {

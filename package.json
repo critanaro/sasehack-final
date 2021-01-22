@@ -5,7 +5,7 @@
     "node": "^14.8.0"
   },
   "description": "website for rice university hackathon",
-  "main": "index.js",
+  "main": "src/pages/index.js",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -28,6 +28,7 @@
     "touch": "^3.1.0"
   },
   "scripts": {
+    "dev": "next dev",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

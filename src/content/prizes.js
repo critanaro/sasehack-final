@@ -3,15 +3,18 @@ export const title = 'Prizes';
 export const places = [
     {
         place: "1st Place",
-        prize: "4K LG Monitors"
+        prize: "New iPad Air",
+        link: "https://www.google.com/aclk?sa=L&ai=DChcSEwiC99Do3a3uAhWc7IYKHZOzD68YABAFGgJ2dQ&sig=AOD64_1Eh4UBp5UQoFTe_nzTRaczj2F02w&ctype=5&q=&ved=2ahUKEwich8Xo3a3uAhWnpFkKHadGAygQ9aACegQIEhBM&adurl="
     },
     {
         place: "2nd Place",
-        prize: "Oculus Gos"
+        prize: "Airpods Pro",
+        link: "https://www.google.com/aclk?sa=L&ai=DChcSEwip56Pw3a3uAhWBvYYKHRQ5DnwYABAFGgJ2dQ&sig=AOD64_1xekfPiCWARJaRpgZzsy2siXxkdg&ctype=5&q=&ved=2ahUKEwjMkJXw3a3uAhWBzVkKHUywAY4Q9aACegQIFxBU&adurl="
     },
     {
         place: "3rd Place",
-        prize: "JBL Speakers"
+        prize: "D2 Retro Bluetooth Speaker",
+        link: "https://divoominternational.com/products/divoom-ditoo-retro-pixel-art-led-bluetooth-speaker-with-smart-sleep-aid-function"
     }
 ].map(prize => {prize.key = `item-${prize.place}`;
     return prize;});
@@ -20,19 +23,19 @@ export const trackWinners = [
     {
 
         place: "First Timers Track",
-        prize: "Nintendo Switches"
+        prize: "TBD"
     },
     {
-        place: "Data Science Track",
-        prize: "BOSE Sunglasses"
+        place: "CDK Global Track",
+        prize: "TBD"
     },
     {
-        place: "Ethics Track",
-        prize: "Expensive Dinner with Luay"
+        place: "Quantico Track",
+        prize: "TBD"
     },
     {
-        place: "Design Track",
-        prize: "Polaroid Cameras"
+        place: "Lilie Track",
+        prize: "TBD"
     }
 ].map(prize => {prize.key = `item-${prize.place}`;
     return prize;});

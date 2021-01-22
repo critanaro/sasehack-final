@@ -6,8 +6,8 @@ import { Element } from "react-scroll";
 
 const Tracks = () => (
     <Element name="tracks">
-        <Box px={3} pt={4} pb={4} bg={colors["base"]} color={colors["gray"][1]}>
-            <Box mx={1} mt={4}>
+        <Box px={3} pt={4} pb={4} bg={colors["base"]} color={colors["dark"]}>
+            <Box bg={colors["white"]} mx={1} mt={4}>
                 <h2 className="title">{title}</h2>
             </Box>
             <Flex flexWrap="wrap" mx={-2} pt={2}>
@@ -49,7 +49,7 @@ const Tracks = () => (
         .title {
           display: inline-block;
           text-transform: uppercase;
-          color: ${colors["white"]};
+          color: ${colors["dark"]};
           border: 1px solid rgba(255, 255, 255, 0.2);
           padding: 2px 10px;
           margin: unset;
@@ -59,7 +59,7 @@ const Tracks = () => (
 
         .card {
           border: 1px solid rgba(255, 255, 255, 0.2);
-          color: ${colors["gray"][1]};
+          color: ${colors["dark"]};
           font-family: "Overpass Mono", monospace;
           margin: 10px;
           min-height: 110px !important;
@@ -75,7 +75,7 @@ const Tracks = () => (
 
         .card:hover {
           background: rgba(255, 255, 255, 0.1);
-          border: 1px solid white;
+          border: 1px solid dark;
           cursor: pointer;
         }
 
@@ -103,8 +103,8 @@ const Tracks = () => (
 
         .detail {
           float: right;
-          border: 1px solid ${colors["white"]};
-          color: ${colors["white"]};
+          border: 1px solid ${colors["dark"]};
+          color: ${colors["dark"]};
           padding: 4px 5px 2px 5px;
           font-size: 0.7em;
           box-sizing: content-box;

@@ -13,11 +13,11 @@ export const title = "What is RSHack?";
  */
 export const lines = ([
   <>
-    RSHack is a new annual hackathon at Rice University, sponsored by <a href="www.ricesase.com">Rice SASE</a>. 
+    RSHack is a new annual hackathon at Rice University, sponsored by <a style={{ textDecoration: "none", fontWeight:"bold", color: "#FFB9BA"}} href="www.ricesase.com">Rice SASE</a>. 
     Following a tumultuous 2020, the first RSHack will invite all students to {" "}
     <span style={{ fontWeight: "600" }}>
-      innovate, learn, and create.
-    </span>
+      innovate, learn, and create
+    </span> {" "}
     for the betterment of our community, and the chance to win some {" "}
     <span style={{ fontWeight: "600" }}>
       awesome prizes.

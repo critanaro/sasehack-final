@@ -29,16 +29,22 @@ const About = props => (
           font-weight: 300;
           font-size: 1em;
           line-height: 1.6em;
+          color: ${colors["white"]};
         }
 
         p strong {
           font-weight: 400 !important;
+          color: ${colors["dark"]};
+        }
+        a {
+          font-weight: 400 !important;
+          color: ${colors["dark"]};
         }
 
         .title {
           display: inline-block;
           text-transform: uppercase;
-          color: ${colors["gray"][0]};
+          color: ${colors["white"]};
           margin: unset;
           font-family: "Overpass Mono", monospace;
         }

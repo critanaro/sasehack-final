@@ -12,7 +12,7 @@ import colors from "../styles/colors.json";
 
 const Calendar = () => (
   <Element name="calendar">
-    <Box bg={"#F4FEFC"} color={colors["base"]}>
+    <Box bg={colors["white"]} color={colors["base"]}>
       <Box mx={4} px={2} pt={4}>
         <h2 className="title">{title}</h2>
       </Box>
@@ -76,8 +76,8 @@ const Calendar = () => (
 
         .dayItem {
           border: 1px solid rgba(0, 0, 0, 0.1);
-          background: rgba(255, 255, 255, 0.2);
-          color: ${colors["base"]};
+          background: ${colors["base"]};
+          color: ${colors["dark"]};
           padding: 8px 10px;
           transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
             transform 0.3s ease-in-out;
@@ -89,7 +89,7 @@ const Calendar = () => (
         }
 
         .dayItem:hover {
-          border: 1px solid ${colors["base"]};
+          border: 1px solid ${colors["pink"]};
           box-shadow: 0px 3px 5px 2px rgba(97, 100, 178, 0.05);
           transform: scale(1.05);
         }
@@ -113,7 +113,7 @@ const Calendar = () => (
           font-size: 0.8em;
           font-weight: 400;
           font-family: "Overpass Mono";
-          background: #DEF7F2;
+          background: ${colors["white"]};
           padding: 2px 5px;
           color: ${colors["dark"]};
         }
