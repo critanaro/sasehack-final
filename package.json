@@ -5,7 +5,7 @@
     "node": "^14.8.0"
   },
   "description": "website for rice university hackathon",
-  "main": "src/pages/index.js",
+  "main": "./src/pages/index.js",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
