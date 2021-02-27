@@ -18,7 +18,7 @@ export const bullets = [
 
   {
     icon: "https://microicon-clone.vercel.app/calendar/ffffff",
-    button: "March 6-7, 2021",
+    button: "March 13-14, 2021",
     note: "A 24 hour hack to bring us together after spending so much time apart."
   },
   {

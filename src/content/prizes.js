@@ -23,15 +23,17 @@ export const trackWinners = [
     {
 
         place: "First Timers Track",
-        prize: "TBD"
+        prize: "iPad 7th Gen"
     },
     {
         place: "CDK Global Track",
         prize: "TBD"
     },
     {
-        place: "Quantico Track",
-        prize: "TBD"
+        place: "EchoAR Track",
+        prize: "$50 Amazon Gift Card (per team)",
+        prize2: "3-months of EchoAR Business Tier",
+        prize3: "Feature on EchoAR website"
     },
     {
         place: "Lilie Track",

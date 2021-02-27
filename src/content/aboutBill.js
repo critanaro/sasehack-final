@@ -3,7 +3,7 @@
  *
  * @type {string} title
  */
-export const billTitle = "What is Lilie";
+export const billTitle = "What is Lilie?";
 
 /**
  * An array of lines, to be placed in separate <p> blocks. Represents the main

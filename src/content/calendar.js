@@ -1,8 +1,8 @@
 export const title = "Schedule";
 
 //export const dayOne = "Friday, 3/06";
-export const dayTwo = "Saturday, 3/06";
-export const dayThree = "Sunday, 3/07";
+export const dayTwo = "Saturday, 3/13";
+export const dayThree = "Sunday, 3/14";
 
 export const saturday = [
   {

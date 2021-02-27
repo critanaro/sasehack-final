@@ -2,11 +2,11 @@ export const title = "Generously Sponsored by";
 
 export const files = [
   {
-    name: "quantico.svg",
+    name: "echoAR.png",
     height: "50px",
-    link: "https://www.quanticoenergy.com/",
+    link: "https://www.echoar.xyz/",
     blurb:
-        "At Quantico we pride ourselves in finding creative solutions to subsurface problems. Without elegant software to deploy those solutions, it would be difficult to provide the level of automation that brings true value to our products. For that reason, our prolific team of data scientists and developers work tirelessly to deliver seamless applications for today's geoscientists and engineers."
+        "echoAR is a cloud platform for augmented and virtual reality (AR/VR) that provides tools and server-side infrastructure to help developers & companies quickly build and deploy AR/VR apps and experiences. We are backed by Remagine Ventures and Techstars, and received grants from Y Combinator, Verizon, and NYC Media Lab. We were named AR/VR finalists for SXSW 2020, won the DevProject Award 2019, named among the 2019 Most Fundable Companies, named one of the Top 25 finalists in Sir Richard Branson's Extreme Tech Challenge (XTC) 2019, and featured on The Hill and Bold TV."
   },
   {
     name: "cdk.svg",

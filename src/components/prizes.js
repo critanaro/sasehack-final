@@ -19,11 +19,13 @@ const Prizes = () => (
                         </a>
                     </div>
                 ))}
-                {trackWinners.map(({ place, prize,link, key }) => (
+                {trackWinners.map(({ place, prize,prize2,prize3, link, key }) => (
                     <div className="prize">
                     <a href = {link} style={{ textDecoration: "none", color: colors["base"]}}>
                         <h3 className="itemTitle">{place}</h3>
                         <span className="item">{prize}</span>
+                        <span className="item">{prize2}</span>
+                        <span className="item">{prize3}</span>
                       </a>
                     </div>
                 ))}
