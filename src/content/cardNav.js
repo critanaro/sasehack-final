@@ -12,7 +12,7 @@ export const cards = [
   {
     icon: "https://microicon-clone.vercel.app/compose/FFB9BA",
     title: "Registration",
-    href: "https://form.typeform.com/to/gKWfHA4z",
+    href: "https://l2t01bpksu2.typeform.com/to/iViUtXfr",
     text: "Are you a college student? Register now for RSHack →"
   },
   {

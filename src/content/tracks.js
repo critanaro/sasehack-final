@@ -22,13 +22,6 @@ export const cards = [
         text: "Build the best AR/VR application using the echoAR platform! Click here to register for this track - EchoAR has set up a special registration on their platform for those competing in this track!"
     },
     {
-        icon: "https://microicon-clone.vercel.app/user/ffffff",
-        type: "track",
-        title: "CDK Global Track",
-        href: "https://docs.google.com/document/d/1hV56u8As5yyCYVNgs_KBvKWQU1pzot5LXLydKfeEhRs/edit?usp=sharing",
-        text: "See the link for more details!"
-    },
-    {
         icon: "https://microicon-clone.vercel.app/build/ffffff",
         type: "track",
         title: "Lilie Healthcare Track",

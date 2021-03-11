@@ -12,7 +12,7 @@ export const bullets = [
   {
     icon: "https://microicon-clone.vercel.app/slideshow/ffffff",
     button: "view opening slideshow",
-    href: "https://docs.google.com/presentation/d/19FlCx_SI5YmvQXL43AJu6T0oQTEFLoU__4W_kItfIQ0/edit?usp=sharing",
+    href: "https://docs.google.com/presentation/d/1tMBRbrt2mfkD4sbxFtcgqlOkVSnMENIYt6AGbTJ5Ssc/edit?usp=sharing",
     note: "view the slides from the opening ceremony!"
   },
 

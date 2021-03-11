@@ -2,7 +2,7 @@ export const title = "Generously Sponsored by";
 
 export const files = [
   {
-    name: "echoAR.svg",
+    name: "echoAR.png",
     height: "50px",
     link: "https://www.echoar.xyz/",
     blurb:
