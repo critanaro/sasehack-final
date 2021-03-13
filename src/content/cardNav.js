@@ -54,7 +54,7 @@ export const cards = [
   {
     icon: "https://microicon-clone.vercel.app/slack/FFB9BA",
     title: "Slack",
-    href: "https://join.slack.com/t/rshack/shared_invite/zt-l2ni8aok-965Sm5aam6_kNWAZh8U~nA",
+    href: "https://join.slack.com/t/ricesase/shared_invite/zt-nwg9hhqo-JBDhd4YT91QAxv6exXWTlQ",
     text: "Join our Slack channel for the latest updates →"
   },
   {

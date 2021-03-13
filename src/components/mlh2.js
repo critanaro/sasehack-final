@@ -2,12 +2,12 @@ import React from "react";
 
 const linkStyle = {
     display : "block",
-    maxWidth : "250px",
-    minWidth : "60px",
+    maxWidth : "800px",
+    minWidth : "30px",
     position : "fixed",
-    right : "0px",
+    mid : "0px",
     top : "0",
-    width : "10%",
+    width : "100%",
     zIndex : "10000"
 };
 
@@ -26,7 +26,7 @@ const Mlh = () => (
     <a id="mlh-trust-badge"
        style={linkStyle} href="https://riceuniversity.zoom.us/j/97264255419?pwd=R1paZkpJT1BvakNIdHZmNWNUdjByUT0"
        target="_blank">
-        <img src="../static/header2.svg"
+        <img src="../static/header1.svg"
              alt="Major League Hacking 2020 Hackathon Season"
              style={imgStyle} />
     </a>

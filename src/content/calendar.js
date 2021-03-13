@@ -12,9 +12,11 @@ export const saturday = [
   },
   {
     time: "12:00 - 1:00 PM",
-    title: "Networking with Sponsors ",
-    detail: "Sponsors, including Rice SASE will open Zoom rooms where hackers can chat with sponsor representatives. Links will be posted here at the time of the event"
+    title: "echoAR Workshop",
+    detail: "This workshop will show you how to quickly create AR/VR apps with no technical skills or coding required!",
+    link: "https://www.youtube.com/watch?v=0EoH9sPtbsg&ab_channel=echoAR"
   },
+
   {
     time: "1:00 PM",
     title: "Opening Ceremonies",
@@ -30,7 +32,7 @@ export const saturday = [
   {
     time: "3:30 PM",
     title: "Sponsor Event 1!",
-    detail: "First giveaway."
+    detail: "First giveaway. Tune in for more information!"
   },
   {
     time: "5:35 PM",
