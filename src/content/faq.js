@@ -17,7 +17,7 @@ export const questions = [
   {
     question: "How long is RSHack?",
     answer:
-      "The event is held from Saturday, March 6th, 12:00 PM to Sunday, March 7th at 4:00 PM. Participants hack for 24 hours."
+      "The event is held from Saturday, March 13th, 2:00 PM to Sunday, March 13th at 3:00 PM. Participants hack for 24 hours (due to daylight savings)."
   },
   {
     question: "How many hackers per team are permitted?",
@@ -64,7 +64,7 @@ export const questions = [
   },
   {
     question: "When does the event start? When will it end?",
-    answer: "Opening ceremonies will start at 1:00 pm on Marc 6, and the event should be completely finished by 4:30 PM on March 7."
+    answer: "Opening ceremonies will start at 1:00 pm on Marc 13, and the event should be completely finished by 4:30 PM on March 14."
   }
 ].map(item => {
   item.key = `faq-${item.question}`;

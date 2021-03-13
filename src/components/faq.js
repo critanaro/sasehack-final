@@ -2,10 +2,11 @@ import React from "react";
 import Collapse, { Panel } from "rc-collapse";
 import defaultCss from "rc-collapse/assets/index.css";
 import customCss from "../styles/collapse.css";
-import { Flex } from "rebass";
+import { Flex, Box } from "rebass";
 import { title, questions } from "../content/faq";
 import colors from "../styles/colors.json";
 import { Element } from "react-scroll";
+import * as Scroll from "react-scroll";
 
 /**
  * React component that contains our frequently asked questions. These
@@ -39,23 +40,22 @@ export default class Questions extends React.Component {
 
     for (let i = 0; i < this.props.questions.length; i += shift) {
       cols.push(
-        <Flex flexWrap="wrap" flexDirection="column" width={[1, 1 / 2, 1 / 3]}>
+        <Flex flexWrap="wrap" flexDirection="column" width={[1, 1 / 2, 1]}>
           {this.props.questions.slice(i, i + shift).map(({ key, question, answer }) => (
-            <Collapse
-              key={key}
-              accordion={false}
-              onChange={this.onChange}
-              activeKey={state.activeKey}
-            >
-              <Panel
-                className="faqCard"
-                key={key}
-                header={question}
-                headerClass="faqCardTitle"
-              >
-                <p>{answer}</p>
-              </Panel>
-            </Collapse>
+            
+
+            <Box width={[1]}>
+          <a >
+            <div className="card">
+              <h3>
+                <span className="spacer" />
+                <span className="cardTitle">{question}</span>
+              </h3>
+              <p>{answer}</p>
+            </div>
+          </a>
+        </Box>
+
           ))}
           <style jsx global>
             {defaultCss}
