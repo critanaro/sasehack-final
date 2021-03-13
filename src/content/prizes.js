@@ -26,10 +26,6 @@ export const trackWinners = [
         prize: "iPad 7th Gen"
     },
     {
-        place: "CDK Global Track",
-        prize: "TBD"
-    },
-    {
         place: "EchoAR Track",
         prize: "$50 Amazon Gift Card (per team)",
         prize2: "3-months of EchoAR Business Tier",
@@ -37,7 +33,7 @@ export const trackWinners = [
     },
     {
         place: "Lilie Track",
-        prize: "TBD"
+        prize: "Polaroid Now Instant Film Camera"
     }
 ].map(prize => {prize.key = `item-${prize.place}`;
     return prize;});

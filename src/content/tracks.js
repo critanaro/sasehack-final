@@ -5,13 +5,13 @@ export const cards = [
         icon: "https://microicon-clone.vercel.app/bubble_chart/ffffff",
         type: "track",
         title: "General Track",
-        text: "Our theme this year is community! After spending so much time apart, we’re looking for hacks that will bring us together again (safely) and/or help out other members of the community. We’re looking for complete, functional projects as opposed to just UI mockups and idea explanations, but we obviously understand if a few things are hardcoded. While we would love to see a community themed hack, the General track also accepts submissions about anything, so feel free to submit whatever hack you come up with! Please note, if you submit to the CDK Global, Lilie, or Beginner Track, you may not submit to the General Track."
+        text: "Our theme this year is community! After spending so much time apart, we’re looking for hacks that will bring us together again (safely) and/or help out other members of the community. We’re looking for complete, functional projects as opposed to just UI mockups and idea explanations, but we obviously understand if a few things are hardcoded. While we would love to see a community themed hack, the General track also accepts submissions about anything, so feel free to submit whatever hack you come up with! Please note, if you submit to the echoAR, Lilie, or Beginner Track, you may not submit to the General Track."
     },
     {
         icon: "https://microicon-clone.vercel.app/bubble_chart/ffffff",
         type: "track",
         title: "First Timers' Track",
-        href: "https://github.com/hack-rice/HR9-First-Timers-Track",
+        href: "https://linktr.ee/critanaro",
         text: "This track is only for groups with a majority of people who have <1 year of programming experience. We’ve left it open ended, but here are some ideas to get you started! Our theme is community, but hacks about (almost) anything will be accepted!"
     },
     {
@@ -28,6 +28,8 @@ export const cards = [
         href: "https://docs.google.com/document/d/1Ed7n2S5eAyneY31GltXW_-8aJy9q4C7oBBG3NpGBX3A/edit?usp=sharing",
         text: "See the link for more details!"
     },
+    
+
     /*
         {
         icon: "https://microicon-clone.vercel.app/timeline/ffffff",

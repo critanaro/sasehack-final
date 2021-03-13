@@ -24,7 +24,7 @@ const imgStyle = {
  */
 const Mlh = () => (
     <a id="mlh-trust-badge"
-       style={linkStyle} href="https://riceuniversity.zoom.us/j/97264255419?pwd=R1paZkpJT1BvakNIdHZmNWNUdjByUT0"
+       style={linkStyle} href="https://forms.gle/3zTTSwe1LDeKrr4j7"
        target="_blank">
         <img src="../static/header1.svg"
              alt="Major League Hacking 2020 Hackathon Season"

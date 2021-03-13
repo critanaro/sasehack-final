@@ -38,6 +38,13 @@ export const saturday = [
     time: "5:35 PM",
     title: "Sponsor Event 2!",
     detail: "Switch giveaway raffle draw. Hackers that signed up are automatically entered into this raffle, so be sure to attend for your chance to win!"
+  
+  },
+  {
+    time: "6:00 PM",
+    title: "Innovating in Health Tech",
+    detail: "Join for a workshop centered on health technology lead by Katelin Cherry."
+  
   }
 ].map(item => {
   item.key = `item-${item.title}`;
