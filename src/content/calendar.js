@@ -30,15 +30,9 @@ export const saturday = [
       "Start hacking! RSHack admins will be available to answer any questions."
   },
   {
-    time: "3:30 PM",
-    title: "Sponsor Event 1!",
-    detail: "First giveaway. Tune in for more information!"
-  },
-  {
     time: "5:35 PM",
     title: "Sponsor Event 2!",
     detail: "Switch giveaway raffle draw. Hackers that signed up are automatically entered into this raffle, so be sure to attend for your chance to win!"
-  
   },
   {
     time: "6:00 PM",
